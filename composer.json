@@ -1,0 +1,23 @@
+{
+    "name": "user/phpmvc-framework",
+    "autoload": {
+        "psr-4": {
+            "User\\PhpmvcFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad-Anas-Darwish",
+            "email": "muhammadanasdarwish1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\":"./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "silvercodes/php-mvc-core": "^v1.0.3"
+    }
+}
